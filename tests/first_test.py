@@ -3,6 +3,7 @@ import pytest
 from app.calculator import Calculator
 
 class TestCalc:
+
     def setup(self):
         self.calc = Calculator
 
